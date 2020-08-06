@@ -47,7 +47,7 @@ class WordDictionary
         {
             for(Trie t : ptr.Alphabets)
             {
-                if(t != null && search(t, word, index + 1))
+                if(t != null && search(t, word,index + 1))
                     return true;
             }
 
