@@ -7,7 +7,7 @@ class Solution {
         }
 
         int rows = grid.length;
-        int columns = grid[0].length;git st
+        int columns = grid[0].length;
 
         Queue<int[]> queue = new LinkedList<>();
         int freshOranges = 0;
